@@ -31,16 +31,16 @@ print(is_palindrome(131))
 # gmovies = [title for title in movies if title.startswith("G")]
 # print(gmovies)
 
-# new_movies = [("Citizen Kane", 1941),
-#               ("Spirited Away", 2001),
-#               ("Gattaca", 1997), ("No Country for Old Men", 2007),
-#               ("LOTR", 2001), ("The Aviator", 2004)]
+new_movies = [("Citizen Kane", 1941),
+              ("Spirited Away", 2001),
+              ("Gattaca", 1997), ("No Country for Old Men", 2007),
+              ("LOTR", 2001), ("The Aviator", 2004)]
 
-# before_millenium_movies = [title for title in new_movies if title[1] < 2000]
-# print(before_millenium_movies)
+before_millenium_movies = [title for title in new_movies if title[1] < 2000]
+print(before_millenium_movies)
 
-# pre2k = [title for (title, year) in new_movies if year < 2000]
-# print(pre2k)
+pre2k = [title for (title, year) in new_movies if year < 2000]
+print(len(pre2k))
 
 # A = [1, 3, 5, 7]
 # B = [2, 4, 6, 8]

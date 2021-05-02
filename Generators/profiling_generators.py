@@ -1,20 +1,24 @@
-import sys
+# import sys
 
-nums_squared_lc = [i * 2 for i in range(10000)]
-print(sys.getsizeof(nums_squared_lc))
+# nums_squared_lc = [i * 2 for i in range(10000)]
+# print(sys.getsizeof(nums_squared_lc))
 
-nums_squared_gc = (i * 2 for i in range(10000))
-print(sys.getsizeof(nums_squared_gc))
-
-
-def multi_yield():
-    yield_str = "This will print the first string"
-    yield yield_str
-    yield_str = "This will print the second string"
-    yield yield_str
+# nums_squared_gc = (i * 2 for i in range(10000))
+# print(sys.getsizeof(nums_squared_gc))
 
 
-multi_obj = multi_yield()
-print(next(multi_obj))
-print(next(multi_obj))
-print(next(multi_obj))
+# def multi_yield():
+#     yield_str = "This will print the first string"
+#     yield yield_str
+#     yield_str = "This will print the second string"
+#     yield yield_str
+
+
+# multi_obj = multi_yield()
+# print(next(multi_obj))
+# print(next(multi_obj))
+# print(next(multi_obj))
+
+sample = ("a", "b", "c", "a", "b", "c", "ab", "ac", "ad", "a", "b", "c")
+block = (print(len(a)) for a in sample if str == "a")
+block()
