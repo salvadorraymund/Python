@@ -1,0 +1,11 @@
+from collections import deque
+myStacks = deque()
+myStacks.append('a')
+myStacks.append('b')
+myStacks.append('c')
+print(myStacks)
+myStacks.pop()
+myStacks.pop()
+myStacks.pop()
+# myStacks.pop()
+print(myStacks)

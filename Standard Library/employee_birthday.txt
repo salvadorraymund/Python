@@ -1,0 +1,3 @@
+name, departments, birthday month
+John Smith, Accounting, November
+Erica Meyers, IT, March
